@@ -1,0 +1,116 @@
+.household-config {
+    margin-top: 2rem;
+}
+
+.retirement-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.retirement-controls label {
+    color: #323456;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color: #1a1a3f;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+select,
+input {
+    padding: 0.75rem;
+    border: 1px solid #BBBBBB;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.number-input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.number-input-wrapper input {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #707070;
+    border: none;
+    border-bottom: 1px solid #323456;
+}
+
+select {
+    color: #7C7C7C;
+}
+
+.spinner-buttons {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.spinner-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+.payment-display {
+    text-align: center;
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+
+.payment-amount {
+    display: block;
+    font-size: 2rem;
+    color: #707070;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.action-buttons button {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.action-buttons button:hover {
+    opacity: 0.9;
+}
+
+.primary-button {
+    background-color: #1a1a3f;
+    color: #45EEE9;
+}
+
+.secondary-button {
+    background-color: white;
+    color: #1a1a3f;
+    border: 1px solid #1a1a3f;
+}
+
+.retire-age-group {
+    flex-basis: 50%;
+    flex-grow: 0;
+}
